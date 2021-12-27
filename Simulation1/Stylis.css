@@ -1,0 +1,183 @@
+/*https://blog.hubspot.com/website/css-fade-in*/
+/*The Place Where I got the Fade-in From.*/
+
+.fade-in-text {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.flexer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+    /*Main Components For the Guide.html*/
+
+
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+#gone{
+
+}
+
+#showing{
+    display: none;
+}
+
+
+
+
+    /*Main Components for Menu Screen*/
+
+
+
+
+.gamemenutitle{
+    font-family:Monaco;
+}
+
+.buttonp {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.buttonp > div {
+    width: 100px;
+    margin: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.wcolor{
+    color: white;
+}
+
+
+
+    /*Main Components For the Game Page*/
+
+
+
+#erasesoon{
+
+}
+
+.displayn{
+    display: none;
+}
+
+#showup{
+    display: none;
+}
+
+#wholescreen{
+    display: flex;
+    border: 5px solid white;
+    width: 1420px;
+    height: 795px;
+    flex-direction: row;
+}
+
+#topbar{
+    border: 5px solid white;
+    width: 710px;
+    height: 100px;
+    z-index: 1;
+}
+
+#sidecheck{
+    border: 7px solid saddlebrown;
+    width: 1420px;
+}
+
+#characterscreen{
+    border: 5px solid darkblue;
+    width: 710px;
+    height: 795px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#flexwrap{
+    display: flex;
+    flex-direction: column;
+}
+
+#characterface{
+    border: 2px solid darkblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#characterstat{
+    border: 5px solid white;
+    width: 706px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+
+.whitening{
+    color: white;
+    font-family: "VCR OSD Mono";
+    font-size: 40px;
+    width: 200px;
+    margin-left: 25px;
+}
+
+#middleplace{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+}
